@@ -1,6 +1,6 @@
-##sneetchalizer version 0.9.0
+## sneetchalizer version 0.9.0
 
-#Manifest:
+# Manifest:
 
 README                - You're reading it now.
 LICENSE               - A copy of the GPL, under which sneetchalizer is released.
@@ -10,13 +10,13 @@ sneetchalizer.1       - The manpage for sneetchalizer.
 sneetchalizer.desktop - A KDE service menu for converting with Konqueror.
 install.rb            - A quick and dirty script to install the sneetchalizer.
 
-#Install:
+# Install:
   If you have root/sudo capabilities you can use the included 'install.rb' ruby script
   to install sneetchalizer to /usr/bin, the manpage to /usr/share/man/man1, and the .desktop
   file to an appropriate KDE directory. Otherwise you will just have to move them somewhere
   appropriate manually.
 
-#Supported software:
+# Supported software:
 
   * lame - for MP3 encoding/decoding
       http://lame.sourceforge.net/
@@ -51,7 +51,7 @@ install.rb            - A quick and dirty script to install the sneetchalizer.
   that they are installed, (until attempting to use them) but obviously, if you want
   to encode to MP3 you need a supported mp3 encoder installed and so forth....
 
-#Optional software:
+# Optional software:
 
   * Guillaume Pierronnet's ruby-mp3info library (to grab mp3 tags)
       http://rubyforge.org/projects/ruby-mp3info/
@@ -84,11 +84,11 @@ install.rb            - A quick and dirty script to install the sneetchalizer.
   and it will be downloaded and installed automatically. Libraries that do not have gems
   will need to be downloaded and installed manually.
 
-#Usage:
+# Usage:
 
   Read the manpage for detailed instructions or use the '--help' option.
 
-#KDE Servicemenu:
+# KDE Servicemenu:
 
   The KDE Servicemenu creates an entry under the 'action' menu to allow conversions with
   sneetchalizer when right-clicking supported filetypes in Konqueror. The 'sneetchalizer.desktop'
@@ -96,14 +96,14 @@ install.rb            - A quick and dirty script to install the sneetchalizer.
   something like '/usr/kde/3.5/share/apps/konqueror/servicemenus/' for a systemwide install
   or '~/.kde/share/apps/konqueror/servicemenus/' for a single user.
 
-#Bugs:
+# Bugs:
 
   Probably. There is a more comprehensive enumeration of bugs/gotchas in the man page.
   Please send bug reports to: bulliver@gmail.com or open an issue on the github page:
   https://github.com/DarrenKirby/sneetchalizer
   If pasting console output, please run the command with '-v' and '-s' options enabled.
 
-#Roadmap:
+# Roadmap:
 
   Short term plans (ie: for next release or so) include:
     * Allowing for more than one tool for the same job (ie: mpg321 as well as lame)
@@ -112,18 +112,18 @@ install.rb            - A quick and dirty script to install the sneetchalizer.
     * Full-on CD ripper/encoder?
     * Fix naive threading.
 
-#License and Disclaimer:
+# License and Disclaimer:
 
   This program is released under the GPL. A copy is enclosed in the sneetchalizer tarball.
   If you make sneetchalizer better the author would appreciate if you send him a copy. This
   software comes without any warranty, and the author can accept absolutely no responsibility
   for lost or damaged files.
 
-#Author:
+# Author:
 
   This script was written by Darren Kirby :: bulliver@gmail.com
 
-#Contributors:
+# Contributors:
 
   Vance Morgan <lafeyette_management [AT] comcast.net> noticed and fixed a bug in the install script.
 
@@ -140,6 +140,6 @@ install.rb            - A quick and dirty script to install the sneetchalizer.
 
   Oleg Lyashko <olegvl@gmail.com> sent in a simple fix to the '-D' or '--outdir' bug.
 
-#Date:
+# Date:
   February 2, 2024.
 
